@@ -43,14 +43,14 @@
 <hr>
 <h2>Block of Basic HTML code</h2>
 <p><code>&lt;html&gt;
-  &lt;head&gt;
-    &lt;title&gt;The Real World&lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;h1&gt;WELCOME TO THE REAL WORLD&lt;/h1&gt;
-    &lt;p&gt;This is my first web page&lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;</code></p>
+  <br>&lt;head&gt;
+    <br>&lt;title&gt;The Real World&lt;/title&gt;
+  <br>&lt;/head&gt;
+ <br> &lt;body&gt;
+    <br>&lt;h1&gt;WELCOME TO THE REAL WORLD&lt;/h1&gt;
+    <br>&lt;p&gt;This is my first web page&lt;/p&gt;
+  <br>&lt;/body&gt;
+<br>&lt;/html&gt;</code></p>
 
 <section id="Interests">
 
@@ -58,10 +58,123 @@
 <p>My interest is in <ol><li><strong>full stack development</strong></li>
 <li><strong>web development</strong></li>
 <li><strong>system design</strong></li></ol></p>
+<aside>
+<details>
+<summary>What is the full form of html?</summary>
+<p>HyperText Markup Language</p></details>
+</aside>
 <hr>
+<h2>Form to tell about urself</h2>
+<form action="https://httpbin.org" method="get">
+  <p>
+   <fieldset>
+    <legend>Personal Details</legend>
+   <label for="fname">First Name:</label>
+        <input type="text" id="fname" placeholder="Enter your First Name" required>   
+  </p>  
+  <p>
+   <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" placeholder="9999999999" pattern="[0-9]{10}" required>
+  </p>
+  <p>
+   <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Something Secret" required>
+  </p>
+  <p>
+   <label for="decade">The Decade you were born in:</label>
+        <input type="number" id="decade" placeholder="Enter the decade" min="1900" max="2099" step="10" value="2000"required>
+  </p>
+  <p>
+   <label for="football">Favourite Football Club:</label>
+        <select id="football">
+          <optgroup label="English Clubs">
+          <option value="manchester-united">Manchester United</option>
+          <option value="liverpool">Liverpool</option>
+          <option value="chelsea">Chelsea</option>
+          <option value="manchester-city">Manchester City</option>
+          <option value="arsenal">Arsenal</option>
+          </optgroup>
+          <optgroup label="Spanish Clubs">
+          <option value="real madrid">Real Madrid</option>
+          <option value="barcelona">Barcelona</option>
+          </optgroup>
+          <optgroup label="German Clubs">
+          <option value="bayern munich">Bayern Munich</option>
+          <option value="bayer leverkusen">Bayer Leverkusen</option>
+          <option value="dortmund">BVB Dortmund</option>
+          </optgroup>
+          <optgroup label="Italian Clubs">
+          <option value="juventus">Juventus</option>
+          <option value="ac milan">AC Milan</option>
+          <option value="inter milan">Inter Milan</option>
+          </optgroup>
+          <option value="Other Clubs">Other Clubs</option>
+        </select>
+  </p>
+  </fieldset>
+  <fieldset>
+    <legend>Favourite Food</legend>
+<p>    
+<label for="food">Select Your Favourite Food:</label></p>
+    <p><input type="radio" name="food" id="icecream" value="icecream">
+   <label for="icecream">Ice Cream</label></p>
+    <p><input type="radio" name="food" id="pizza" value="pizza">
+    <label for="pizza">Pizza</label></p>
+    <p><input type="radio" name="food" id="burger" value="burger">
+    <label for="burger">Burger</label></p>
+    <p><input type="radio" name="food" id="pasta" value="pasta">
+    <label for="pasta">Pasta</label></p>
+    <p><input type="radio" name="food" id="other" value="other">
+     <label for="other">Other</label></p>
+  </fieldset>
+<fieldset>
+    <legend>Tell me something about your favourite person</legend>
+       <textarea name="favourite person" rows="10" cols="30" placeholder="Your Favourite Person...."></textarea>
+  <br><button type="submit">Submit</button>
+  <button type="reset">Reset</button>
+</fieldset>
+</form>
+<!--This is a comment--></p>
+<hr>
+<table>
+<caption>My Daily Schedule</caption>
+<tr>
+<th>
+Hours</th>
+<th>
+Subjects</th>
+<th>Topics</th>
+</tr>
+<tr>
+<td>
+<time datetime="09:00">9:00 AM</time>
+<time datetime="10:00">- 10:00 AM</time></td>
+<td>
+Python</td>
+<td>
+Introduction to Python</td>
+</tr>
+<tr>
+<td>
+<time datetime="11:00">11:00 AM</time>
+<time datetime="12:00">- 12:00 PM</time></td>
+<td>
+JavaScript</td>
+<td>
+Classes and Objects in JavaScript</td>
+</tr>
+<tr>
+<td><time datetime="13:00">1:00 PM</time>
+<time datetime="14:00">- 2:00 PM</time></td>
+<td>
+HTML</td>
+<td>
+Advanced HTML Techniques</td>
+</tr>
+</table>
 <p><b>&lt;&lt;&lt;&copy;<a href="about.html">Goutham Nair</a>&gt;&gt;&gt;</b>
 <b><a href="mailto:abc@gmail.com">Contact ME</a></b>
-<b><a href="tel:+91 9470173847">Dial Me</a></b></p>
+<b><a href="tel:+91 9470173847">Dial Me</a></b>
 <p><a href="#">Back to Top</a></p>
 <hr>
 <p><a href="/">Back to Home Page</a></p>
